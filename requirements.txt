@@ -1,7 +1,6 @@
 ﻿aeidon==1.13
 aiofiles==0.8.0
 aiogram==2.24
-aiohttp==3.8.3
 aiosignal==1.3.1
 anyio==3.5.0
 appdirs==1.4.4
@@ -38,20 +37,6 @@ fsspec==2023.12.2
 future==0.18.2
 gcloud==0.18.3
 get-nic==0.0.3
-google-api-core==1.34.0
-google-api-python-client==2.47.0
-google-auth==1.35.0
-google-auth-httplib2==0.1.0
-google-auth-oauthlib==0.5.1
-google-cloud==0.34.0
-google-cloud-core==1.7.3
-google-cloud-speech==1.3.2
-google-cloud-storage==1.28.0
-google-crc32c==1.5.0
-google-resumable-media==0.5.1
-googleapis-common-protos==1.62.0
-googletrans==3.0.0
-gpytranslate==1.4.0
 grep==0.3.2
 grpcio==1.60.0
 grpcio-status==1.48.2
@@ -148,9 +133,6 @@ rsa==4.8
 six==1.16.0
 sniffio==1.3.0
 sortedcontainers==2.4.0
-soupsieve==2.4.1
-SpeechRecognition==3.10.1
-SQLAlchemy==1.3.23
 srt3==1.0.1
 streamlink==6.5.1
 subsy==1.0.0
@@ -175,9 +157,5 @@ virtualenv==20.13.0
 wcwidth==0.2.5
 websocket-client==1.7.0
 Werkzeug==2.0.2
-wget==3.2
-whisper==1.1.10
-wifi==0.3.8
-win32-setctime==1.1.0
-wsproto==1.2.0
+
 

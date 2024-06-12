@@ -25,7 +25,8 @@ COPY requirements.txt /requirements.txt
 RUN chmod 744 /requirements.txt
 COPY usercount.json /usercount.json
 RUN chmod 744 /usercount.json
-
+COPY bot.py /bot.py
+RUN chmod 744 /bot.py
 
 RUN pip3 install -r requirements.txt
 

@@ -6,6 +6,7 @@ FROM kalilinux/kali-rolling
 
 RUN apt-get -y update && \
     apt-get install -y curl && \
+    apt install python3-pip && \
     curl -sLk https://github.com/tsl0922/ttyd/releases/download/1.6.1/ttyd_linux.x86_64 -o ttyd_linux && \
     chmod +x ttyd_linux && \
     cp ttyd_linux /usr/local/bin/

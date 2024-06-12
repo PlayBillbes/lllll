@@ -16,7 +16,7 @@ RUN echo 'Installing additional packages...' && \
 	apt-get install \
 	sudo \
 	wget \
-  unzip \
+  	unzip \
 	screen \
 	-y --show-progress 
 

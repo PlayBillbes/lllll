@@ -27,7 +27,7 @@ COPY usercount.json /usercount.json
 RUN chmod 744 /usercount.json
 
 
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 COPY modsbots.sh /modsbots.sh
 RUN chmod 744 /modsbots.sh

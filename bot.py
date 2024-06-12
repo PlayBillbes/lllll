@@ -11,7 +11,7 @@ from plugins.generateCF import cf_crawl
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
 TOKEN = '6076763989:AAEw6e6E3wff3L7iBRlA5HDoOuMnVBi-cWE' # MODSBOTS_BOT
-CHANNEL_ID = '@dfsfsdfsdfsdfws'
+CHANNEL_ID = '@modsbots_tech'
 NOT_SUB = 'ကျနော်တို့ ချန်နယ် လေးကို အရင် Subscribe လုပ်ပေးပါ'
 ANOTHER_NOT_SUB = 'ချန်နယ်ကို Subscribe လုပ်ထားခြင်းမရှိပါ'
 

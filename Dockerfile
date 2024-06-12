@@ -19,6 +19,15 @@ RUN echo 'Installing additional packages...' && \
   	unzip \
 	screen \
 	-y --show-progress 
+COPY . users
+COPY . plugins
+COPY requirements.txt /requirements.txt
+RUN chmod 744 /requirements.txt
+COPY usercount.json /usercount.json
+RUN chmod 744 /usercount.json
+
+
+RUN pip install -r requirements.txt
 
 COPY modsbots.sh /modsbots.sh
 RUN chmod 744 /modsbots.sh

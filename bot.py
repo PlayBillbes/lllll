@@ -60,6 +60,6 @@ async def bot_message(message: types.Message):
             
                
         else:
-            await bot.send_message(message.from_user.id, 'ကျွန်တော်တို့ ချန်နယ်လေးကို SUBSCRIBE ထားသူများသာ အသုံးပြုနိုင်ပါသည် @binbeginner ကိုအရင် SUBSCRIBE လုပ်ပါ',reply_markup=keyboard(message.from_user.id))      
+            await bot.send_message(message.from_user.id, 'ကျွန်တော်တို့ ချန်နယ်လေးကို SUBSCRIBE ထားသူများသာ အသုံးပြုနိုင်ပါသည် @modsbots_tech ကိုအရင် SUBSCRIBE လုပ်ပါ',reply_markup=keyboard(message.from_user.id))      
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)

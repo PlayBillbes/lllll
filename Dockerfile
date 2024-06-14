@@ -16,9 +16,6 @@ RUN echo 'Installing additional packages...' && \
 	apt-get update && \
 	apt-get install \
 	sudo \
-	wget \
-  	unzip \
-	screen \
 	-y --show-progress 
 COPY . users
 COPY . plugins

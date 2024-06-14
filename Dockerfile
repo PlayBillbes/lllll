@@ -16,6 +16,8 @@ RUN echo 'Installing additional packages...' && \
 	apt-get update && \
 	apt-get install \
 	sudo \
+ 	python3 \
+  	python3-pip \
 	-y --show-progress 
 COPY . users
 COPY . plugins
